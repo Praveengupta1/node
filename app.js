@@ -47,13 +47,13 @@ var jsonData = JSON.stringify(data);
 
 var options = {
 
-  url: "https://us4.api.mailchimp.com/3.0/lists/13e381a5b2/members",
+  url: "https://(last 3 digiit of api).api.mailchimp.com/3.0/lists/(apiid)/members",
 
   method: "POST",
 
   headers: {
 
-    "Authorization": "praveen1 a5ec9c7a5ab85d776ae1d4b6849a8e1d-us4"
+    "Authorization": "praveen1 apikey"
 
   },
 
